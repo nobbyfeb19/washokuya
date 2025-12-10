@@ -328,7 +328,7 @@ main{
 }
 @media (max-width: 768px) {
 .logo{
-  width: 400rem;
+  width: 40%;
   }
 }
 
@@ -423,7 +423,7 @@ main{
   flex-direction: column;
 }
 .commitment__img{
-  width:40%;
+  width:60%;
 }
 .commitment__txt{
   width:100%;
