@@ -446,7 +446,7 @@ main{
 .map__txt{
   padding-top:1em;
   font-size:16rem;
-  text-align: center;
+  text-align:center;
 }
 @media (max-width: 768px) {
   .map__txt{
@@ -464,7 +464,7 @@ main{
 
 @media (max-width: 768px) {
   .site-footer{
-    font-size:24rem;
+    font-size:14px;
   }
 
   }
