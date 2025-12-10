@@ -65,7 +65,7 @@ img{
   width:100%;
   max-width: 1120rem;
   margin: 0 auto;
-  padding: 0 20rem;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -128,8 +128,8 @@ img{
   .nav-list a {
     display: block;
     width:100%;
-    font-size: 40rem;
-    padding: 20rem 0;
+    font-size: 60rem;
+    padding: 40rem 0;
   }
   .nav.active {
     transform: translateX(0);
@@ -157,7 +157,8 @@ img{
 }
 @media (max-width: 768px) {
 .second-heading {
-    font-size: 48rem;
+    font-size: 60rem;
+    text-align: center;
   }
   }
 
@@ -346,7 +347,7 @@ main{
     background: rgba(255, 255, 255, .5);
     border-radius: 10px;
     margin-bottom: 20rem;
-    padding:20rem;
+    padding:20px;
 }
 .past-works__ttl{
   display: inline-block;
@@ -370,14 +371,18 @@ main{
   padding: 5rem 10rem 0 0;
 }
 @media (max-width: 768px) {
+.past-works__lists{
+  flex-direction: column;
+  gap:20px;
+  }
 
 .past-works__list{
-    width: 49%;
+    width: 100%;
 }
 .past-works__ttl{
   display: inline-block;
-  padding:10rem;
-  font-size: 36rem;
+  padding:30rem;
+  font-size: 50rem;
 }
 .past-works__ttl:after{
     content: "";
@@ -387,10 +392,10 @@ main{
     background: linear-gradient(to right, rgb(243 149 24), transparent);
   }
 .past-works__txt{
-  font-size: 30rem;
+  font-size: 16px;
 }
 .tag_limited{
-  font-size: 30rem;
+  font-size: 44rem;
 }
 
   }
@@ -422,7 +427,7 @@ main{
 }
 .commitment__txt{
   width:100%;
-  font-size: 30rem;
+  font-size: 16px;
   padding: 40rem;
   padding-top: 60rem;
   background-position: center;
@@ -440,7 +445,7 @@ main{
 }
 .map__txt{
   padding-top:1em;
-  font-size:18rem;
+  font-size:16px;
   text-align: center;
 }
 @media (max-width: 768px) {
