@@ -450,7 +450,8 @@ main{
 }
 @media (max-width: 768px) {
   .map__txt{
-  font-size:16px;
+  font-size:40rem;
+  text-align: left;
 }
 
   }
